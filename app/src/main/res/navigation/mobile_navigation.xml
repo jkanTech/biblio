@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.jkantech.biblioispt.ui.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_book"
+        android:name="com.jkantech.biblioispt.ui.fragments.books.booksFragment"
+        android:label="@string/title_library"
+        tools:layout="@layout/fragment_book" />
+    <fragment
+        android:id="@+id/navigation_travaux"
+        android:name="com.jkantech.biblioispt.ui.fragments.travaux.TravauxFragment"
+        android:label="@string/title_works"
+        tools:layout="@layout/fragment_book" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.jkantech.biblioispt.ui.fragments.profile.NotificationsFragment"
+        android:label="@string/title_count"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

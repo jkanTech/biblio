@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Biblio ISPT</string>
+    <string name="title_home">Acceuil</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_book">Livres</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_about">A Propos</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="slogant">ISPT Bibliothéque numérique</string>
+    <string name="nav_book">Livres</string>
+    <string name="title_works">Travaux</string>
+    <string name="title_count">Compte</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_library">Librairie</string>
+    <string name="recharge">Rafraîchissement...</string>
+    <string name="reessayer">REESSAYER</string>
+    <string name="message_error">Erreur de connexion. Veuillez réessayer ulterieurement</string>
+    <string name="offline">Pas de connexion</string>
+
+
+</resources>
